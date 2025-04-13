@@ -1232,7 +1232,9 @@
       <DependentUpon>BotCreateUi2.xaml</DependentUpon>
     </Compile>
     <Compile Include="Robots\BotFactory.cs" />
-    <Compile Include="Robots\BotsFromStartLessons\Lesson1HelloWorld.cs" />
+    <Compile Include="Robots\MarketMaker\SmaStochMacdBot.cs">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Compile>
     <Compile Include="Robots\BotsFromStartLessons\Lesson2Bot1.cs" />
     <Compile Include="Robots\BotsFromStartLessons\Lesson2Bot2.cs" />
     <Compile Include="Robots\BotsFromStartLessons\Lesson3Bot1.cs" />
@@ -1997,6 +1999,7 @@
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
       <SubType>Designer</SubType>
     </EmbeddedResource>
+    <None Include="ClassDiagram1.cd" />
     <None Include="lua\config.json" />
     <None Include="lua\dkjson.lua" />
     <None Include="lua\qscallbacks.lua" />
